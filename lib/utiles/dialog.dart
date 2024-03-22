@@ -32,7 +32,7 @@ Future<void> geoPermissionRequestDialog(BuildContext context) async {
       builder: (context) {
         return CupertinoAlertDialog(
           title: const Text('Please enable location services to access all features.'),
-          content: const Text('Please confirm allowing RG-Link to use location service.'),
+          content: const Text('Allowing RG-Link to use location service.'),
           actions: <Widget>[
             CupertinoDialogAction(
               child: const Text('Cancel'),
@@ -60,7 +60,7 @@ Future<void> bluetoothPermissionRequestDialog(BuildContext context) async {
       builder: (context) {
         return CupertinoAlertDialog(
           title: const Text('Please enable bluetooth services to access all features.'),
-          content: const Text('Please confirm allowing RG-Link to use bluetooth service.'),
+          content: const Text('Allowing RG-Link to use bluetooth service.'),
           actions: <Widget>[
             CupertinoDialogAction(
               child: const Text('Cancel'),

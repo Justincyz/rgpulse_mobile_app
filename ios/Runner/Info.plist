@@ -27,13 +27,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>RG-Link needs your location so you can store the waterway map and use them later</string>
+	<string>Please enable location services to access all features.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>RG-Link needs your location so you can navigate on the waterway map.</string>
+	<string>Please enable location services to access all features.</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-    <string>Please activete Bluetooth on your phone and switch the motor on</string>
+    <string>Please enable bluetooth services and switch the motor on</string>
     <key>NSBluetoothPeripheralUsageDescription</key>
-    <string>Please activete Bluetooth on your phone and switch the motor on</string>
+    <string>Please enable bluetooth services and switch the motor on</string>
 	<key>NSUserNotificationUsageDescription</key>
 	<string>We'd like to send you notifications to keep you updated.</string>
 	
