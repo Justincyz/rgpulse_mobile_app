@@ -19,8 +19,8 @@ const String BT_SEARCHING_STATE_WAITING = "Searching bluetooth devices ...";
 const String BT_CONNECTION_UNSUCCESS_TITLE = "Connecting Not Success";
 const String BT_CONNECTION_UNSUCCESS_MESSAGE = "Please make sure your phone is turned on and within range";
 
-const String BT_DISCONNECTION_UNSUCCESS_TITLE = "Disdconnecting";
-const String BT_DISCONNECTION_UNSUCCESS_MESSAGE = "The device may already been disconnected";
+const String BT_DISCONNECTION_UNSUCCESS_TITLE = "Disconnecting";
+
 
 
 const String SURE = 'Sure';

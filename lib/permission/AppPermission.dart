@@ -37,5 +37,13 @@ class AppPermission {
     return BTStatus == PermissionStatus.granted;
   }
 
-  
+  Future<PermissionStatus> requestBluetoothPermission(){
+    return Permission.bluetooth.request();
+  }
+
+  Future<bool> isBlueToothEnabled() async{
+    bool isGranted = false;
+    requestBluetoothPermission().then((value) => isGranted =(value == PermissionStatus.granted));
+    return isGranted;
+  }
 }
